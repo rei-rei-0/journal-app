@@ -1,0 +1,37 @@
+h1{
+  color: red;
+  padding-top: 10px;
+}
+/* log in */
+#loginMain {
+  height: 200px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  background-color: blue;
+
+}
+main button {
+  background-color: red;
+  display:block;
+  margin: auto;
+  padding: 5px;
+  
+}
+
+#userName{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+body {
+  margin-top: 50%;
+  background-color: lightpink;
+}
+
+/* messaging */
+#messagingMain{
+  background-color: lightblue;
+  height: 600px;
+}
