@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "figlet": "^1.5.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "journalapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rei-rei-0/journal-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rei-rei-0/journal-app/issues"
+  },
+  "homepage": "https://github.com/rei-rei-0/journal-app#readme",
+  "description": ""
 }
