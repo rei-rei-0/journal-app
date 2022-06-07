@@ -12,6 +12,7 @@ function test(){
 //basic idea works
 async function apiRequest(){
   countQ++
+  console.log('hi')
   try{
     const res = await fetch(`/messaging?question=${countQ}`)
     const data = await res.json()
@@ -22,6 +23,10 @@ async function apiRequest(){
       console.log(error)
   }
 }
+
+// tried this for fetch didn't work: /api?number=
+// tried this too : /api/${countQ}
+
 // async function makeReq(){
 
 //   const userName = document.querySelector("#userName").value;
