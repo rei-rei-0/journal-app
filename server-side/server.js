@@ -57,9 +57,9 @@ app.get('/', (req, res)=>{
   res.sendFile(__dirname + '/index.html')
 })
 
-app.get('/messaging', (req, res)=>{
-  res.sendFile(path.join(__dirname + '../client-side/messaging.html')) // need to link to messaging
-})
+// app.get('/messaging', (req, res)=>{
+//   res.sendFile(path.join(__dirname + '../client-side/messaging.html')) // need to link to messaging
+// })
 
 app.get('/api/:number', (req, res)=>{
   const questionNum = req.params.number
